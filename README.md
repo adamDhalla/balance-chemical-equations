@@ -1,4 +1,5 @@
-# balance-chemical-equations by adam dhalla (adamdhalla.com)
+# balance-chemical-equations by adam dhalla 
+(adamdhalla.com)
 
 A rough but functional way to balance chemical equations that do NOT undergo polyatomic decomposition
 (polyatomics must be in same groups on left hand side and right hand side). 

@@ -1,5 +1,5 @@
 # balance chemical equations w/ python
-#### Adam Dhalla (adamdhalla.com)
+#### Adam Dhalla [adamdhalla.com](https://adamdhalla.com/)
 
 A rough but functional way to balance chemical equations that do NOT undergo polyatomic decomposition
 (polyatomics must be in same groups on left hand side and right hand side). 
@@ -18,8 +18,11 @@ For polyatomics: (AB)X + CY -> (AB)Y + C
 
 **IMPORTANT II:** For Polyatomics, don't include the subscript inside the polyatomic - Don't Do (NO3), just (NO)
 
-Sample inputs: solveEquation("Au3 + Br2 -> Au2Br5") 
-               solveEquation("(CrO)4 + Pb5N2 -> Pb2(CrO)4 + N3")
+**Sample inputs**: 
+```
+solveEquation("Au3 + Br2 -> Au2Br5") 
+solveEquation("(CrO)4 + Pb5N2 -> Pb2(CrO)4 + N3")
+```
 
 ### **Under the Hood**
 For a complete guide on how this algorithm works, I wrote a detailed medium post + diagrams, picture and bckg information: 
@@ -44,6 +47,3 @@ integer-valued set of coefficients for our problem.
 
 Then, I display these back in the format of the chemical equations.
 
-
-
-Then, I try to solve for the nullspace of a systems of equations matrix A. 

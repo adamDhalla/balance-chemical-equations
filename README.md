@@ -1,17 +1,17 @@
-#**balance chemical equations w/ python**
+# balance chemical equations w/ python
 #### Adam Dhalla (adamdhalla.com)
 
 A rough but functional way to balance chemical equations that do NOT undergo polyatomic decomposition
 (polyatomics must be in same groups on left hand side and right hand side). 
 
-###**Input Syntax**
+### **Input Syntax**
 There is a standard input syntax for all chemical equations. We take an input to our single function, solveEquation(string).
 
 For regular: AXBY + CZ -> CZAX + BY 
 For polyatomics: (AB)X + CY -> (AB)Y + C
-______________________________________________
-Where A, B, C are elements (e.g Au, C, Pb)
-Where X, Y, Z are subscripts (how much corresponding element occurs)
+
+*Where A, B, C are elements (e.g Au, C, Pb)*
+*Where X, Y, Z are subscripts (how much element occurs)*
 
 **IMPORTANT I:** Please, if you are dealing with an element that only occurs once, e.g Na or Cl in NaCl 
              Instead input (Na1Cl1). Always explicitly refer to the subscript in the input.
@@ -21,7 +21,7 @@ Where X, Y, Z are subscripts (how much corresponding element occurs)
 Sample inputs: solveEquation("Au3 + Br2 -> Au2Br5") 
                solveEquation("(CrO)4 + Pb5N2 -> Pb2(CrO)4 + N3")
 
-#---------------------------------------------------------------------------------------------------------------UNDER THE HOOD
+### **Under the Hood**
 For a complete guide on how this algorithm works, I wrote a detailed medium post + diagrams, picture and bckg information: 
 https://adamdhalla.medium.com/balancing-chemical-equations-using-python-4b9086a92a7c
 

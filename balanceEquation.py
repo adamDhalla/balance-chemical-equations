@@ -212,14 +212,5 @@ def solveEquation(equation):
     for compound in range(0, len(rsplits), 2):
         rcompounds.append(str(rsplits[compound]) + " " + str(rsplits[compound + 1]))
 
-    # print 
-    print("----------------------------")
-    print(join(lcompounds, ' + '), " -> ", join(rcompounds, ' + '))
-
-
-solveequation(inputequation)
-
-""" Test Cases: 
-Au2 + Br2 -> Au2 + Br1 = should equal 1Au2 + 1Br2 -> 1Au2 + 2Br2
-"""
-
+    # you can turn this into a void function if you'd like and print output instead of returning it
+    return (join(lcompounds, ' + '), " -> ", join(rcompounds, ' + '))
